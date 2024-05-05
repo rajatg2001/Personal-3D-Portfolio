@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  justify-content : center;
+  z-index : 2 ;
+  height:200px;
+}
+.current-job-text {
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    z-index:2;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .current-job-text {
+      font-size: 18px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .current-job-text {
+      font-size: 24px;
+    }
+  }

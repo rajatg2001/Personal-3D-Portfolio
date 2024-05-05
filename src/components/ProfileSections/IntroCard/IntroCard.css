@@ -1,0 +1,27 @@
+.container {
+  justify-content: center;
+  height: 200px;
+  width:200px;
+}
+
+.intro-text {
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  z-index: 2; /* Remove this if not necessary */
+}
+@media only screen and (max-width: 600px) {
+  .intro-text {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .intro-text {
+    font-size: 24px;
+  }
+}

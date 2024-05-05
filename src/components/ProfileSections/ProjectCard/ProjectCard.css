@@ -1,0 +1,113 @@
+
+.project-card-wrapper {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+    border-radius: 20px;
+    z-index:2;
+    height:200px;
+  }
+  
+  .project-card-upper {
+    display: flex;
+    gap: 9px;
+  }
+  
+  .project-card-image-placeholder {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #fff;
+    overflow: hidden;
+  }
+  
+  .project-card-image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .project-card-title-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 348px;
+    gap: 6px;
+  }
+  
+  .project-card-title {
+    color: #1d2235;
+    font-size: 26px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  .project-card-description {
+    display: flex;
+    flex-direction: column;
+    color: #45517d;
+    font-size: 20px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+  }
+  
+  .project-card-show-projects {
+    display: flex;
+    width: 457px;
+    padding: 16px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #406aff;
+  
+    color: #fff;
+    font-size: 14px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .project-card-wrapper {
+     align-items: center;
+    }
+  
+    .project-card-image-placeholder {
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+    }
+  
+    .project-card-title-description {
+      width: 150px;
+    }
+  
+    .project-card-title {
+      font-size: 18px;
+    }
+  
+    .project-card-description {
+      font-size: 14px;
+    }
+  
+    .project-card-show-projects {
+      width: 200px;
+      padding: 10px 20px;
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  }
